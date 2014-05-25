@@ -75,7 +75,7 @@ Agora que temos o **Ruby** configurado, vamos começar a brincar de verdade com 
 
   * Segundo passo
 	Criar o site/blog com o jekyll: ``$ jekyll new meu-site``
-	Tem que aparecer isso: ``New jekyll site installed in /home/USER/path/meu-site.`` 
+	Resposta: ``New jekyll site installed in /home/USER/path/meu-site.`` 
 
   * Terceiro passo
 
@@ -85,7 +85,7 @@ Agora que temos o **Ruby** configurado, vamos começar a brincar de verdade com 
 
 	Dentro do diretório criado, digite: ``$ jekyll server``
 
-Pronto, a estrutura do seu site/blog está criado, para acessar localmente basta acessar: ``http:://localhost:400``
+Pronto, a estrutura do seu site/blog está criado, para acessar localmente basta acessar: ``http:://localhost:4000``
 
 #### Erros
 

@@ -7,7 +7,7 @@ categories: others
 
 Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro *hello word!*, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o **wordpress** (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o **Jekyll**, feito em **ruby**, e tem algumas vantagens legais,veja o que pessoal do [tableless] diz.
 
-A ideia veio de um colega de trabalho, o [Rogerio] (_ruby on rails man_), que tem um post explicando como compilar a ultima versão do **Ruby** em máquinas _*NIX_. Resolvi pegar um pouco do que ele disse lá, e ascrentar algumas dicas, para ensinar como colocar o **Jekyll** em sua máquina, e publicar o seu blog/site, utilizando o [Github Pages].
+A ideia veio de um colega de trabalho, o [Rogerio]  (ruby on rails man_), que tem um post explicando como compilar a ultima versão do **Ruby** em máquinas _*NIX_. Resolvi pegar um pouco do que ele disse lá, e ascrentar algumas dicas, para ensinar como colocar o **Jekyll** em sua máquina, e publicar o seu blog/site, utilizando o [Github Pages].
 
 #### Atenção
 
@@ -93,7 +93,7 @@ Como eu uso o **Ubuntu (12.04 LTS)**, ao tentar executar o comando ``jekyll serv
 
 ```
 $ jekyll server
-                            
+
 /usr/local/ruby/2.1.2/lib/ruby/gems/2.1.0/gems/execjs-2.0.2/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
 	from /usr/local/ruby/2.1.2/lib/ruby/gems/2.1.0/gems/execjs-2.0.2/lib/execjs.rb:5:in `<module:ExecJS>'
 	from /usr/local/ruby/2.1.2/lib/ruby/gems/2.1.0/gems/execjs-2.0.2/lib/execjs.rb:4:in `<top (required)>'

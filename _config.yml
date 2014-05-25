@@ -1,0 +1,13 @@
+name: Renan Martins Pimentel
+description: 
+meta_description: "Blog de sobre desenvolvimento Web"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 3
+
+# Details for the RSS feed generator
+url:            'http://renanmpimentel.github.io'
+author:         'Renan Martins Pimentel'
+author_bio:		'Gosto de programar, cerveja, café e café.'

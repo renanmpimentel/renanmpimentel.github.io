@@ -8,23 +8,5 @@
     <title>Renan Martins Pimentel</title>
     <link>http://renanmpimentel.github.io</link>
     <description>RSS feed for Renan Martins Pimentel</description>
-    <pubDate>Sat, 24 May 2014 14:50:00 -0300</pubDate>
-    <item>
-      <title>Hospedando meu blog no github</title>
-      <link>http://renanmpimentel.github.io/github/pages/2014/05/24/hospedando-meu-blog-no-github.html</link>
-      <description>&lt;p&gt;No post anterior &lt;a href=&quot;http://renanmpimentel.github.io/others/2014/05/24/hello-word.html&quot;&gt;hello word!&lt;/a&gt; eu falei de como instalar/compilar o &lt;strong&gt;Ruby&lt;/strong&gt; e o &lt;strong&gt;Jekyll&lt;/strong&gt; em sua máquina de desenvolvimento. E agora, vou mostrar como fazer para colocar essa página no ar, se gastar nada, porque vamos usar o &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Sat, 24 May 2014 14:50:00 -0300</pubDate>
-      <dc:date>2014-05-24T14:50:00-03:00</dc:date>
-    </item>
-    <item>
-      <title>Hello word!</title>
-      <link>http://renanmpimentel.github.io/others/2014/05/24/hello-word.html</link>
-      <description>&lt;p&gt;Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro &lt;em&gt;hello word!&lt;/em&gt;, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o &lt;strong&gt;wordpress&lt;/strong&gt; (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o &lt;strong&gt;Jekyll&lt;/strong&gt;, feito em &lt;strong&gt;ruby&lt;/strong&gt;, e tem algumas vantagens legais,veja o que pessoal do &lt;a href=&quot;http://tableless.com.br/jekyll-servindo-sites-estaticos/&quot;&gt;tableless&lt;/a&gt; diz.&lt;/p&gt;
-</description>
-      <pubDate>Sat, 24 May 2014 06:50:00 -0300</pubDate>
-      <dc:date>2014-05-24T06:50:00-03:00</dc:date>
-    </item>
-    <dc:date>2014-05-24T14:50:00-03:00</dc:date>
   </channel>
 </rss>

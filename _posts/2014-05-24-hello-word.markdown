@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello word!"
 date:   2014-05-24 09:50:00
-categories: others
+categories: jekyll
 ---
 
 Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro *hello word!*, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o **wordpress** (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o **Jekyll**, feito em **ruby**, e tem algumas vantagens legais,veja o que pessoal do [tableless] diz.
@@ -30,6 +30,7 @@ $ sudo apt-get install build-essential git git-core curl bison openssl libreadli
 Agora, você deve descompactar a pasta `tar -vzxf [versao-ruby].tar.gz`, feito isso entre na pasta gerada e execute o seguinte comando no console do seu sistema operacional.
 
 ```
+
 $ sudo ./configure --prefix=PATH/RUBY_VERSION --bindir=BIN_PATH
 ```
 

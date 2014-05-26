@@ -69,7 +69,7 @@ $ git commit -m "Criando uma pagina com github pages com Jekyll"
 $ git push
 ```
 
-Mas o [Github Pages] não é a unica forma de publicar o seu site, existem outras maneiras, [em um post], o [Rogerio] explica, como publicar no [Heruko], utilizando o **Jekyll**, vale a pena dar uma conferida.
+Mas o [Github Pages] não é a unica forma de publicar o seu site, existem outras maneiras, [em um post], o [Rogerio] explica, como publicar no [Heroku], utilizando o **Jekyll**, vale a pena dar uma conferida.
 
 E depois disso, toda alteração que você quiser que seja publicada, basta fazer um novo _commit_ e por ai vai. O **Git** é uma ferramenta essenciail para qualquer desenvolvedor. E o [Github] é uma das melhores formas de aproveitarmos tudo que ele pode oferecer, mas isso cabe a outro _post_.
 
@@ -80,4 +80,4 @@ E depois disso, toda alteração que você quiser que seja publicada, basta faze
 [pesquisa aqui]: https://www.google.com.br/search?client=ubuntu&hs=TzL&channel=fs&q=about+git+and+github&oq=about+git+and+github
 [Rogerio]: http://rogerio.me
 [em um post]: http://rogerio.me/paginas-estaticas-com-jekyll-no-heroku
-[Heruko]: https://www.heroku.com/
+[Heroku]: https://www.heroku.com/

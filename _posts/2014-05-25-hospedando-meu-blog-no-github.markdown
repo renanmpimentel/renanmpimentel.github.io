@@ -29,7 +29,7 @@ Depois, basta seguir os seguintes passos:
 
 ```$ echo "Hello World" > index.html``` 
 
-E para finalizar, basta você fazer um commit dessas suas alterações:
+E para finalizar, você deve fazer um commit dessas suas alterações:
 
 ```
 $ git add --all
@@ -39,17 +39,17 @@ $ git commit -m "Criando uma pagina com github pages"
 $ git push
 ```
 
-Agora é só aguardar alguns minutos, pode ir tomar um café, e quando voltar basta acessar o dominio: ``username.github.io``. A primeira vez demora um pouco, mas as proximas alterações serão de imediato.
+Agora é só aguardar alguns minutos, pode ir tomar um café, e quando voltar acesse o dominio: ``username.github.io``. A primeira vez demora um pouco, mas as proximas alterações serão de imediato.
 
 #### Github + Jekyll
 
 No exemplo anterior, mostramos apenas uma pagina em html simples, sem nenhuma dificuldade, agora, veja como é simples fazer o mesmo, só que utilizando o exemplo do _meu-site_ do _[hello word!]_.
 
-Então, basta criarmos a estrutura do **Jekyll**:
+Então, nos criarmos a estrutura do **Jekyll**:
 
 ```$ jekyll new username.github.io ```
 
-Feito isso, agora é preciso enviar as alterações para o **Github**, basta digitar no console o seguinte comando:
+Feito isso, agora é preciso enviar as alterações para o **Github**, digite no console o seguinte comando:
 
 ```
 $ cd username.github.io

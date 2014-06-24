@@ -71,7 +71,7 @@ O código final está nesse [gist]
 ### Documentação oficial:
 
 * Função [fopen]
-* Função [fred]
+* Função [fread]
 * Biblioteca [curl]
 * Função [json_decode]
 

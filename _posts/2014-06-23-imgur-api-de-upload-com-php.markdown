@@ -66,6 +66,10 @@ if(!empty($imgur['data']['link'])) {
 exit($imgur['data']['error']);
 ```
 
+O código final está nesse [gist]
+
+### Documentação oficial:
+
 * Função [fopen]
 * Função [fred]
 * Biblioteca [curl]
@@ -81,3 +85,4 @@ Essa foi uma demonstração simples, não use esse código para fins comerciais,
 [fred]: http://www.php.net/manual/en/function.fread.php
 [curl]: http://www.php.net/manual/en/book.curl.php
 [json_decode]: http://www.php.net/manual/en/function.json-decode.php
+[gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74

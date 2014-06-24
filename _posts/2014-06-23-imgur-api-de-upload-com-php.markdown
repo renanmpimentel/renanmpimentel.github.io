@@ -28,13 +28,13 @@ Aqui, um formulário simples:
 
 ### Enviando a foto
 
-Vamos precisa informar o **client ID**
+Vamos criar um arquivo upload.php e informar o **client ID**
 
 ```
 $client_id ="f022afbee1d5b81";
 ```
 
-Depois, vamos ler o conteudo da imagem
+Depois, ler o conteudo da imagem
 
 ```
 $filename = $_FILES['img']['tmp_name'];
@@ -43,7 +43,7 @@ $data     = fread($handle, filesize($filename));
 $pvars    = array('image' => base64_encode($data));
 ```
 
-E por último, vamos enviar essa informação via **cURL** para a API do [imgur]: *https://api.imgur.com/3/image.json*
+E por último, enviaremos essa informação via **cURL** para a API do [imgur]: *https://api.imgur.com/3/image.json*
 
 ```
 $curl = curl_init();

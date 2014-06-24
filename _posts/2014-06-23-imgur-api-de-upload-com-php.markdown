@@ -11,7 +11,7 @@ O primeiro passo é fazer o cadastro no [imgur], e depois de criada e confirmada
 
 ![alt text](/assets/images/post-003/upload-image-imgur-001.png "")
 
-Feito tudo isso, vai ser gerada uma chave **client ID** e **client secret**, vamos usar **apenas a primeira **em nossa aplicação.
+Feito tudo isso, vai ser gerada uma chave **client ID** e **client secret**, vamos usar **apenas a primeira** em nossa aplicação.
 
 ![alt text](/assets/images/post-003/upload-image-imgur-002.png "")
 

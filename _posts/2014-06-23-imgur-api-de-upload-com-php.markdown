@@ -82,7 +82,7 @@ Essa foi uma demonstração simples, não use esse código para fins comerciais,
 [imgur]: http://imgur.com/
 [chave de autorização]:https://api.imgur.com/oauth2/addclient
 [fopen]: http://www.php.net/manual/en/function.fopen.php
-[fred]: http://www.php.net/manual/en/function.fread.php
+[fread]: http://www.php.net/manual/en/function.fread.php
 [curl]: http://www.php.net/manual/en/book.curl.php
 [json_decode]: http://www.php.net/manual/en/function.json-decode.php
 [gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74

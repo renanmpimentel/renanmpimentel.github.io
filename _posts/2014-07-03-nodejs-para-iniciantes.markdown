@@ -158,4 +158,3 @@ A ideia para os proximos post são:
 [Curso BeMEAN]: http://bemean.com.br/
 [aqui]: http://nodejs.org/download/
 [http]: http://nodejs.org/api/http.html
-b

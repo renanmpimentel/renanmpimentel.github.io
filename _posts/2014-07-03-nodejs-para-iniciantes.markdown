@@ -153,8 +153,9 @@ A ideia para os proximos post são:
 [nodejs]: http://www.nodejs.org
 [express]: https://github.com/visionmedia/express
 [Caio Ribeiro]: https://twitter.com/crp_underground
-[Suissa]: https://twitter.com/suissa
+[Suissa]: https://twitter.com/osuissa
 [Aplicações web real-time com Node.js]: http://www.casadocodigo.com.br/products/livro-nodejs
 [Curso BeMEAN]: http://bemean.com.br/
 [aqui]: http://nodejs.org/download/
 [http]: http://nodejs.org/api/http.html
+b

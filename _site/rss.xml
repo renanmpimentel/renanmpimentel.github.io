@@ -8,7 +8,31 @@
     <title>Renan Martins Pimentel</title>
     <link>http://renanmpimentel.github.io</link>
     <description>RSS feed for Renan Martins Pimentel</description>
-    <pubDate>Sun, 25 May 2014 14:50:00 -0300</pubDate>
+    <pubDate>Thu, 03 Jul 2014 17:50:00 -0300</pubDate>
+    <item>
+      <title>nodejs para iniciantes</title>
+      <link>http://renanmpimentel.github.io/javascript/2014/07/03/nodejs-para-iniciantes.html</link>
+      <description>&lt;p&gt;Há algumas semanas atrás, eu só conhecia os &amp;quot;Hello world&amp;quot; em &lt;a href=&quot;http://www.nodejs.org&quot;&gt;nodejs&lt;/a&gt;. Foi então que, onde trabalho surgiu a oportunidade em fazer um novo componente, usando apenas &lt;strong&gt;javascript&lt;/strong&gt;, e como essa aplicação seria apenas &lt;em&gt;server-side&lt;/em&gt; decidimos usar o &lt;a href=&quot;http://www.nodejs.org&quot;&gt;nodejs&lt;/a&gt; com &lt;a href=&quot;https://github.com/visionmedia/express&quot;&gt;express&lt;/a&gt;. &lt;/p&gt;
+</description>
+      <pubDate>Thu, 03 Jul 2014 17:50:00 -0300</pubDate>
+      <dc:date>2014-07-03T17:50:00-03:00</dc:date>
+    </item>
+    <item>
+      <title>imgur: api de upload com php</title>
+      <link>http://renanmpimentel.github.io/php/2014/06/23/imgur-api-de-upload-com-php.html</link>
+      <description>&lt;p&gt;Um pequeno exemplo de como fazer upload de imagens para o [imgur]. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, &lt;strong&gt;faça algumas melhorias&lt;/strong&gt; e poste aqui nos comentários. &lt;/p&gt;
+
+&lt;p&gt;[imgur]: http://imgur.com/ target=&amp;quot;&lt;em&gt;blank&amp;quot;
+[chave de autorização]:https://api.imgur.com/oauth2/addclient target=&amp;quot;&lt;/em&gt;blank&amp;quot;
+[fopen]: http://www.php.net/manual/en/function.fopen.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
+[fread]: http://www.php.net/manual/en/function.fread.php target=&amp;quot;&lt;/em&gt;blank&amp;quot;
+[curl]: http://www.php.net/manual/en/book.curl.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
+[json&lt;/em&gt;decode]: http://www.php.net/manual/en/function.json-decode.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
+[gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74 target=&amp;quot;&lt;/em&gt;blank&amp;quot;&lt;/p&gt;
+</description>
+      <pubDate>Mon, 23 Jun 2014 17:50:00 -0300</pubDate>
+      <dc:date>2014-06-23T17:50:00-03:00</dc:date>
+    </item>
     <item>
       <title>Hospedando meu blog no github</title>
       <link>http://renanmpimentel.github.io/github/2014/05/25/hospedando-meu-blog-no-github.html</link>
@@ -18,13 +42,13 @@
       <dc:date>2014-05-25T14:50:00-03:00</dc:date>
     </item>
     <item>
-      <title>Hello word!</title>
-      <link>http://renanmpimentel.github.io/jekyll/2014/05/24/hello-word.html</link>
-      <description>&lt;p&gt;Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro &lt;em&gt;hello word!&lt;/em&gt;, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o &lt;strong&gt;wordpress&lt;/strong&gt; (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o &lt;strong&gt;Jekyll&lt;/strong&gt;, feito em &lt;strong&gt;ruby&lt;/strong&gt;, e tem algumas vantagens legais,veja o que pessoal do &lt;a href=&quot;http://tableless.com.br/jekyll-servindo-sites-estaticos/&quot;&gt;tableless&lt;/a&gt; diz.&lt;/p&gt;
+      <title>Hello world!</title>
+      <link>http://renanmpimentel.github.io/jekyll/2014/05/24/hello-world.html</link>
+      <description>&lt;p&gt;Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro &lt;em&gt;hello world!&lt;/em&gt;, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o &lt;strong&gt;wordpress&lt;/strong&gt; (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o &lt;strong&gt;Jekyll&lt;/strong&gt;, feito em &lt;strong&gt;ruby&lt;/strong&gt;, e tem algumas vantagens legais,veja o que pessoal do &lt;a href=&quot;http://tableless.com.br/jekyll-servindo-sites-estaticos/&quot;&gt;tableless&lt;/a&gt; diz.&lt;/p&gt;
 </description>
       <pubDate>Sat, 24 May 2014 06:50:00 -0300</pubDate>
       <dc:date>2014-05-24T06:50:00-03:00</dc:date>
     </item>
-    <dc:date>2014-05-25T14:50:00-03:00</dc:date>
+    <dc:date>2014-07-03T17:50:00-03:00</dc:date>
   </channel>
 </rss>

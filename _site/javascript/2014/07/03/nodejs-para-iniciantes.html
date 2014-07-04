@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Renan Martins Pimentel - </title>
+    <meta name="description" content="Blog de sobre desenvolvimento Web" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+    <!-- This is for syntax highlight -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+    <!-- Customisation  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+
+</head>
+<body class="home-template">
+
+    
+    <main class="content" role="main">
+
+    <article class="post">
+        <header class="post-header">
+            <a id="blog-logo" href="http://renanmpimentel.github.io">
+                
+                    <span class="blog-title">Renan Martins Pimentel</span>
+                 
+            </a>
+        </header>
+        
+        <span class="post-meta">
+        	<time datetime="2014-07-03">03 Jul 2014</time>
+        	
+        		on
+	        	
+	        	    javascript
+	        	
+	        
+       	</span>
+
+        <h1 class="post-title">nodejs para iniciantes</h1>
+
+        <section class="post-content">
+            <p>Há algumas semanas atrás, eu só conhecia os &quot;Hello world&quot; em <a href="http://www.nodejs.org">nodejs</a>. Foi então que, onde trabalho surgiu a oportunidade em fazer um novo componente, usando apenas <strong>javascript</strong>, e como essa aplicação seria apenas <em>server-side</em> decidimos usar o <a href="http://www.nodejs.org">nodejs</a> com <a href="https://github.com/visionmedia/express">express</a>. </p>
+
+<p>Vou tentar passar um pouco do que estou aprendendo, mas se você tem pressa para conhecer sobre o assunto, recomendo o curso do <a href="https://twitter.com/suissa">Suissa</a>: <a href="http://bemean.com.br/">Curso BeMEAN</a> e o livro do <a href="https://twitter.com/crp_underground">Caio Ribeiro</a>: <a href="http://www.casadocodigo.com.br/products/livro-nodejs">Aplicações web real-time com Node.js</a>. Os dois vão te dar uma boa base sobre nodejs, express, nosql e etc, recomendo! :)</p>
+
+<h1>Instalação</h1>
+
+<h2>Linux</h2>
+
+<p><strong>Debian e derivados</strong> </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+</code></pre></div>
+<p><strong>openSUSE &amp; SLE</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/nodejs/openSUSE_13.1/ Node.js
+sudo zypper in nodejs nodejs-devel
+</code></pre></div>
+<p><strong>Fedora</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo yum install nodejs npm
+</code></pre></div>
+<p><strong>Arch Linux</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pacman -S nodejs
+</code></pre></div>
+<h2>OSX</h2>
+
+<p><strong>Usando Fink</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"> fink install nodejs
+</code></pre></div>
+<p><strong>Usando homebrew</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"> brew install node
+</code></pre></div>
+<p><strong>Usando macports</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"> port install nodejs
+</code></pre></div>
+<h2>Windows</h2>
+
+<p>Basta fazer o download <a href="http://nodejs.org/download/">aqui</a></p>
+
+<p>Indepentende do sistema operacional que você estiver trabalhando, para ver se tudo ocorreu bem, basta digitar o seguinte comando em seu terminal:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">node -v
+</code></pre></div>
+<h1>Package.json</h1>
+
+<p>Este é um dos arquivos mais importantes para um projeto <a href="http://www.nodejs.org">nodejs</a>, um <strong>package.json</strong> mal estruturado pode comprometer o funcionamento do sistema. Ele é responsavel por todas as dependêndias que são compreendidas pelo <strong>NPM</strong> e outras coisas. Veja um exemplo:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
+  &quot;name&quot;: &quot;Nome do modulo&quot;,
+  &quot;description&quot;: &quot;Descrição do modulo&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;author&quot;: &quot;Renan Martins Pimentel &lt;renan.pimentel@gmail.com&gt;&quot;,
+  &quot;contributors&quot;: [
+    &quot;Nome Sobrenome &lt;email@email.com&gt;&quot;
+  ],
+  &quot;keywords&quot;: [
+    &quot;keywords-1&quot;,
+    &quot;keywords-2&quot;
+  ],
+  &quot;repository&quot;: &quot;link-do-repositorio&quot;,
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;dependencies&quot;: {
+    &quot;modulo-01&quot;: &quot;1.0.0&quot;,
+    &quot;modulo-02&quot;: &quot;2.0.0&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;dev-modulo-01&quot;: &quot;1.0.0&quot;,
+    &quot;dev-modulo-02&quot;: &quot;2.0.0&quot;
+  },
+  &quot;engines&quot;: {
+    &quot;node&quot;: &quot;&gt;= 0.10.0&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app&quot;,
+  }
+}
+</code></pre></div>
+<h1>Olá mundo!</h1>
+
+<p>Assim como tudo que fazemos de novo no mundo de programação, vamos ao nosso <strong>Ola Mundo!</strong>. Diferente de algumas linguagens que estamos acustumados a trabalhar, o <a href="http://www.nodejs.org">nodejs</a> é responsavel pelo seu proprio servidor. Pode parecer dificil, mas veja como é fácil:</p>
+
+<p>Crie um arquivo <em>app.js</em></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var http = require(&#39;http&#39;);
+
+var server = http.createServer(function(request, response){
+  response.writeHead(200, {&quot;Content-Type&quot;: &quot;text/html&quot;});
+  response.write(&quot;&lt;h1&gt;Ola mundo!&lt;/h1&gt;&quot;);
+  response.end();
+});
+server.listen(3000);
+</code></pre></div>
+<p>Simplesmente, usamos um dos modulos nativo do <a href="http://www.nodejs.org">nodejs</a>, o <a href="http://nodejs.org/api/http.html">http</a> e apontamos o nosso servidor para a porta <em>3000</em>, para validarmos isso, basta digitar no terminal:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">npm start
+</code></pre></div>
+<p>ou</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">node app.js
+</code></pre></div>
+<p>Feito isso, acesse via navegador a URL http://localhost:3000</p>
+
+<h1>Próximos passos</h1>
+
+<p>Com isso, você já pode perder um pouco o medo de trabalhar com <strong>javascript/nodejs</strong>, pretendo escrever mais coisas, mas se preferir, faça o curso ou leia o livro que comentei no começo do post.</p>
+
+<p>A ideia para os proximos post são:</p>
+
+<ul>
+<li>Como o nodemon pode ajudar no desenvolvimento</li>
+<li>Nodejs + mysql </li>
+<li>Como fazer testes em Nodejs com mocha</li>
+<li>Coverage com istanbul</li>
+</ul>
+
+        </section>
+
+        
+
+        <footer class="post-footer">
+        	<!-- If we want to display author's name and bio -->
+            
+                <section class="author">
+                	<header> <a href=""> <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture"></a></header>
+                	<article>
+                		<!-- Author Name -->
+                    	<h4> Renan Martins Pimentel </h4>
+                    	<!-- Author Bio -->
+                    	<p> Gosto de programar, cerveja, café e café. </p>
+                    </article>
+                </section>                
+            
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=nodejs para iniciantes&amp;url=http://renanmpimentel.github.io/javascript/2014/07/03/nodejs-para-iniciantes.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://renanmpimentel.github.io/javascript/2014/07/03/nodejs-para-iniciantes.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://renanmpimentel.github.io/javascript/2014/07/03/nodejs-para-iniciantes.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            
+            
+            <section class="disqus">
+            	<div id="disqus_thread"></div>
+            	<script type="text/javascript">
+
+            	    var disqus_shortname = 'renanmartinspimentel'; 
+            		var disqus_developer = 0; // developer mode is on
+            	    (function() {
+            	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            	    })();
+            	</script>
+            	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </section>
+            
+        	
+        </footer>
+
+    </article>
+
+</main>
+
+
+    <footer class="site-footer">
+        <a class="subscribe icon-feed" href="rss.xml"><span class="tooltip">Subscribe!</span></a>
+        <div class="inner">
+             <section class="copyright">All content copyright <a href="">Renan Martins Pimentel</a> &copy;  &bull; All rights reserved.</section>
+             <section class="poweredby">Made with Jekyll using <a href="http://github.com/rosario/kasper">Kasper theme</a></section>
+        </div>
+    </footer>
+
+    
+    <script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Google Analytics Tracking code -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-51285285-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>   
+</body>
+</html>

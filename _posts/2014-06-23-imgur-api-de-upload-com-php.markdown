@@ -79,10 +79,11 @@ Essa foi uma demonstração simples, não use esse código para fins comerciais,
 
 ![alt text](http://replygif.net/i/1188.gif)
 
-[imgur]: http://imgur.com/ target="_blank"
-[chave de autorização]:https://api.imgur.com/oauth2/addclient target="_blank"
-[fopen]: http://www.php.net/manual/en/function.fopen.php target="_blank"
-[fread]: http://www.php.net/manual/en/function.fread.php target="_blank"
-[curl]: http://www.php.net/manual/en/book.curl.php target="_blank"
-[json_decode]: http://www.php.net/manual/en/function.json-decode.php target="_blank"
-[gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74 target="_blank"
+[imgur]: http://imgur.com/
+[chave de autorização]:https://api.imgur.com/oauth2/addclient
+[fopen]: http://www.php.net/manual/en/function.fopen.php
+[fread]: http://www.php.net/manual/en/function.fread.php
+[curl]: http://www.php.net/manual/en/book.curl.php
+[json_decode]: http://www.php.net/manual/en/function.json-decode.php
+[gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74
+

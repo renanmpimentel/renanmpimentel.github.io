@@ -5,7 +5,7 @@ date:   2014-09-27 00:00:00
 categories: others
 ---
 
-Eu sei que o assunto é glichê, mas foi lendo sobre o "ambiente de desenvolvimento" de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
+Eu sei que o assunto é clichê, mas foi lendo sobre o "ambiente de desenvolvimento" de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
 
 
 ### SISTEMA OPERACIONAL

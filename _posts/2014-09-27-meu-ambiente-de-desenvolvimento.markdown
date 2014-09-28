@@ -87,7 +87,7 @@ Pronto, reinicie seu computador: ``` $ sudo shutdown -r 0 ```
 
 Atualmente utilizo o [Vagrant] e estou tentando migrar para o [Docker] todos meus projetos. Mas as vezes preciso executar alguma coisa na minha máquina direto, então, sempre mantenho um serviço instalado. No meu caso eu deixo PHP, Nginx e NodeJS.
 
-Para instalar o PHP vou ppa [ondrej/php5] e para o NodeJS, irei fazer a instalação pelo [NVM].
+Para instalar o PHP vou adicionar um repositorio ppa [ondrej/php5] e para o NodeJS, irei fazer a instalação pelo [NVM].
 
 ##### PHP
 ```
@@ -131,7 +131,7 @@ export NVM_DIR="/home/renanmpimentel/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
 
-Eu costumo replicar essa informações em todos os arquivos de perfil: (```~/.bash_profile```, ```~/.zshrc``` or ```~/.profile```).
+Eu costumo replicar essa informações em todos os arquivos de perfil: (```~/.bash_profile```, ```~/.zshrc``` e ```~/.profile```).
 
 Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
 
@@ -167,6 +167,7 @@ Com isso você ja consegue ter uma ideia de como usar o [NVM], mas se quiser sab
 Ainda utilizo outros programas:
 
 * [Mysql Workbench]
+* [RoboMongo]
 * [ReText]
 * [Sublime Text 3](Apesar de estar tentando mudar de vez para o ViM)
 * [Spotify]
@@ -187,6 +188,7 @@ Por enquanto é isso, caso tenha alguma sugestão para meu ambiente de desenvolv
 [outras formas de instalar]: https://github.com/creationix/nvm#install-script
 [documentação oficial do NVM]: https://github.com/creationix/nvm#usage
 [Mysql Workbench]: http://www.mysql.com/products/workbench/
+[RoboMongo]: http://robomongo.org/
 [ReText]: http://sourceforge.net/projects/retext/
 [Sublime Text 3]: http://www.sublimetext.com/3
 [Spotify]: https://www.spotify.com/

@@ -8,10 +8,34 @@
     <title>Renan Martins Pimentel</title>
     <link>http://renanmpimentel.github.io</link>
     <description>RSS feed for Renan Martins Pimentel</description>
-    <pubDate>Thu, 03 Jul 2014 17:50:00 -0300</pubDate>
+    <pubDate>Sun, 15 Feb 2015 07:50:00 -0200</pubDate>
+    <item>
+      <title>Integração contínua com travis-ci</title>
+      <link>http://renanmpimentel.github.io/dev/integracao-continua-com-travis-ci.html</link>
+      <description>&lt;p&gt;Nesse post vou mostrar como é simples integrar o seu &lt;a href=&quot;http://www.github.com&quot;&gt;github&lt;/a&gt; ao &lt;a href=&quot;https://travis-ci.org/&quot;&gt;travis-ci&lt;/a&gt;, uma ferramenta de integração contínua online e &lt;strong&gt;gratís&lt;/strong&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 15 Feb 2015 07:50:00 -0200</pubDate>
+      <dc:date>2015-02-15T07:50:00-02:00</dc:date>
+    </item>
+    <item>
+      <title>web scraping com nodejs</title>
+      <link>http://renanmpimentel.github.io/javascript/web-scraping-com-nodejs.html</link>
+      <description>&lt;p&gt;Um dia desses, surgiu a necessidade de fazer um &lt;em&gt;web scraping&lt;/em&gt;, que consiste básicamente em extrair informações de um determinado site.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 24 Oct 2014 07:50:00 -0200</pubDate>
+      <dc:date>2014-10-24T07:50:00-02:00</dc:date>
+    </item>
+    <item>
+      <title>Meu ambiente de desenvolvimento</title>
+      <link>http://renanmpimentel.github.io/others/meu-ambiente-de-desenvolvimento.html</link>
+      <description>&lt;p&gt;Eu sei que o assunto é clichê, mas foi lendo sobre o &amp;quot;ambiente de desenvolvimento&amp;quot; de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P&lt;/p&gt;
+</description>
+      <pubDate>Fri, 26 Sep 2014 21:00:00 -0300</pubDate>
+      <dc:date>2014-09-26T21:00:00-03:00</dc:date>
+    </item>
     <item>
       <title>nodejs para iniciantes</title>
-      <link>http://renanmpimentel.github.io/javascript/2014/07/03/nodejs-para-iniciantes.html</link>
+      <link>http://renanmpimentel.github.io/javascript/nodejs-para-iniciantes.html</link>
       <description>&lt;p&gt;Há algumas semanas atrás, eu só conhecia os &amp;quot;Hello world&amp;quot; em &lt;a href=&quot;http://www.nodejs.org&quot;&gt;nodejs&lt;/a&gt;. Foi então que, onde trabalho surgiu a oportunidade em fazer um novo componente, usando apenas &lt;strong&gt;javascript&lt;/strong&gt;, e como essa aplicação seria apenas &lt;em&gt;server-side&lt;/em&gt; decidimos usar o &lt;a href=&quot;http://www.nodejs.org&quot;&gt;nodejs&lt;/a&gt; com &lt;a href=&quot;https://github.com/visionmedia/express&quot;&gt;express&lt;/a&gt;. &lt;/p&gt;
 </description>
       <pubDate>Thu, 03 Jul 2014 17:50:00 -0300</pubDate>
@@ -19,23 +43,15 @@
     </item>
     <item>
       <title>imgur: api de upload com php</title>
-      <link>http://renanmpimentel.github.io/php/2014/06/23/imgur-api-de-upload-com-php.html</link>
-      <description>&lt;p&gt;Um pequeno exemplo de como fazer upload de imagens para o [imgur]. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, &lt;strong&gt;faça algumas melhorias&lt;/strong&gt; e poste aqui nos comentários. &lt;/p&gt;
-
-&lt;p&gt;[imgur]: http://imgur.com/ target=&amp;quot;&lt;em&gt;blank&amp;quot;
-[chave de autorização]:https://api.imgur.com/oauth2/addclient target=&amp;quot;&lt;/em&gt;blank&amp;quot;
-[fopen]: http://www.php.net/manual/en/function.fopen.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
-[fread]: http://www.php.net/manual/en/function.fread.php target=&amp;quot;&lt;/em&gt;blank&amp;quot;
-[curl]: http://www.php.net/manual/en/book.curl.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
-[json&lt;/em&gt;decode]: http://www.php.net/manual/en/function.json-decode.php target=&amp;quot;&lt;em&gt;blank&amp;quot;
-[gist]: https://gist.github.com/renanmpimentel/59d567b71239d9fcfb74 target=&amp;quot;&lt;/em&gt;blank&amp;quot;&lt;/p&gt;
+      <link>http://renanmpimentel.github.io/php/imgur-api-de-upload-com-php.html</link>
+      <description>&lt;p&gt;Um pequeno exemplo de como fazer upload de imagens para o &lt;a href=&quot;http://imgur.com/&quot;&gt;imgur&lt;/a&gt;. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, &lt;strong&gt;faça algumas melhorias&lt;/strong&gt; e poste aqui nos comentários. &lt;/p&gt;
 </description>
       <pubDate>Mon, 23 Jun 2014 17:50:00 -0300</pubDate>
       <dc:date>2014-06-23T17:50:00-03:00</dc:date>
     </item>
     <item>
       <title>Hospedando meu blog no github</title>
-      <link>http://renanmpimentel.github.io/github/2014/05/25/hospedando-meu-blog-no-github.html</link>
+      <link>http://renanmpimentel.github.io/github/hospedando-meu-blog-no-github.html</link>
       <description>&lt;p&gt;No post anterior &lt;a href=&quot;http://renanmpimentel.github.io/others/2014/05/24/hello-word.html&quot;&gt;hello word!&lt;/a&gt; eu falei de como instalar/compilar o &lt;strong&gt;Ruby&lt;/strong&gt; e o &lt;strong&gt;Jekyll&lt;/strong&gt; em sua máquina de desenvolvimento. E agora, vou mostrar como fazer para colocar essa página no ar, se gastar nada, porque vamos usar o &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
 </description>
       <pubDate>Sun, 25 May 2014 14:50:00 -0300</pubDate>
@@ -43,12 +59,12 @@
     </item>
     <item>
       <title>Hello world!</title>
-      <link>http://renanmpimentel.github.io/jekyll/2014/05/24/hello-world.html</link>
+      <link>http://renanmpimentel.github.io/jekyll/hello-world.html</link>
       <description>&lt;p&gt;Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro &lt;em&gt;hello world!&lt;/em&gt;, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o &lt;strong&gt;wordpress&lt;/strong&gt; (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o &lt;strong&gt;Jekyll&lt;/strong&gt;, feito em &lt;strong&gt;ruby&lt;/strong&gt;, e tem algumas vantagens legais,veja o que pessoal do &lt;a href=&quot;http://tableless.com.br/jekyll-servindo-sites-estaticos/&quot;&gt;tableless&lt;/a&gt; diz.&lt;/p&gt;
 </description>
       <pubDate>Sat, 24 May 2014 06:50:00 -0300</pubDate>
       <dc:date>2014-05-24T06:50:00-03:00</dc:date>
     </item>
-    <dc:date>2014-07-03T17:50:00-03:00</dc:date>
+    <dc:date>2015-02-15T07:50:00-02:00</dc:date>
   </channel>
 </rss>

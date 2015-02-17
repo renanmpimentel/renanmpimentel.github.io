@@ -4,6 +4,8 @@ title:  "Hello world!"
 date:   2014-05-24 09:50:00
 categories: jekyll
 name: /hello-world
+tag: hello-word, jekyll, ruby
+description: Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro hello world!, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o wordpress (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o Jekyll, feito em ruby, e tem algumas vantagens legais, veja o que pessoal do tableless diz.
 feature: /assets/images/post-001/hello-world.jpg
 ---
 

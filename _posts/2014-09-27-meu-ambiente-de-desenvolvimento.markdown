@@ -3,6 +3,10 @@ layout: post
 title:  "Meu ambiente de desenvolvimento"
 date:   2014-09-27 00:00:00
 categories: others
+name: /meu-ambiente-de-desenvolvimento.html
+tags: workflow, dev, web
+description: Eu sei que o assunto é clichê, mas foi lendo sobre o ambiente de desenvolvimento de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
+feature: /assets/images/post-005/workflow.jpg
 ---
 
 Eu sei que o assunto é clichê, mas foi lendo sobre o "ambiente de desenvolvimento" de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P

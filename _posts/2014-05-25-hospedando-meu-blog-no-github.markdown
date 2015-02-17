@@ -3,6 +3,10 @@ layout: post
 title:  "Hospedando meu blog no github"
 date:   2014-05-25 17:50:00
 categories: github
+name: /hospedando-meu-blog-no-github.html
+tag: github, github-pages, blog
+description: No post anterior hello word! eu falei de como instalar/compilar o Ruby e o Jekyll em sua máquina de desenvolvimento. E agora, vou mostrar como fazer para colocar essa página no ar, se gastar nada, porque vamos usar o Github Pages.
+feature: /assets/images/post-002/github-pages.jpg
 ---
 
 

@@ -3,6 +3,10 @@ layout: post
 title:  "imgur: api de upload com php"
 date:   2014-06-23 20:50:00
 categories: php
+name: /imgur-api-de-upload-com-php.html
+tag: php, api, imgur
+description: Um pequeno exemplo de como fazer upload de imagens para o imgur. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, faça algumas melhorias e poste aqui nos comentários. 
+feature: /assets/images/post-003/api-imgur.jpg
 ---
 
 Um pequeno exemplo de como fazer upload de imagens para o [imgur]. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, **faça algumas melhorias** e poste aqui nos comentários. 

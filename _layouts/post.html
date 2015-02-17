@@ -5,18 +5,25 @@ archive: false
 ---
 
 <main class="content" role="main">
-
     <article class="post">
         <header class="post-header">
             <a id="blog-logo" href="{{site.url}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
+                <span class="blog-title">{{ site.name }}</span>
             </a>
         </header>
-        
+    </article>
+</main>
+
+<header class="site-head" {% if page.feature %} style="background-image: url({{ page.feature }})"{% endif %}>
+    <div class="vertical">
+        <div class="site-head-content" class="inner">
+            <h1 class="post-title">{{ page.title }}</h1>
+        </div>
+    </div>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
         <span class="post-meta">
         	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
         	{% if page.categories %}
@@ -27,7 +34,7 @@ archive: false
 	        {% endif %}
        	</span>
 
-        <h1 class="post-title">{{ page.title }}</h1>
+        
 
         <section class="post-content">
             {{content}}

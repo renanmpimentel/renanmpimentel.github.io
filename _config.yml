@@ -9,6 +9,6 @@ paginate: 3
 permalink: none
 
 # Details for the RSS feed generator
-url:            'http://renanmpimentel.github.io/'
+url:            'http://renanmpimentel.github.io'
 author:         'Renan Martins Pimentel'
 author_bio:		'Gosto de programar, cerveja, café e café.'

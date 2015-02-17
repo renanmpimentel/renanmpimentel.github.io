@@ -5,9 +5,9 @@
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
-    <title>Renan Martins Pimentel</title>
+    <title>renan martins pimentel</title>
     <link>http://renanmpimentel.github.io</link>
-    <description>RSS feed for Renan Martins Pimentel</description>
+    <description>RSS feed for renan martins pimentel</description>
     <pubDate>Sun, 15 Feb 2015 07:50:00 -0200</pubDate>
     <item>
       <title>Integração contínua com travis-ci</title>

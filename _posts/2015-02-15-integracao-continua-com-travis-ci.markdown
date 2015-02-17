@@ -3,6 +3,10 @@ layout: post
 title:  "Integração contínua com travis-ci"
 date:   2015-02-15 09:50:00
 categories: dev
+tags: travis-ci, devops
+description: travis-ci, devops
+name: integracao-continua-com-travis-ci.html
+image: assets/images/post-007/img06.png
 ---
 
 Nesse post vou mostrar como é simples integrar o seu [github](http://www.github.com) ao [travis-ci](https://travis-ci.org/), uma ferramenta de integração contínua online e __gratís__.

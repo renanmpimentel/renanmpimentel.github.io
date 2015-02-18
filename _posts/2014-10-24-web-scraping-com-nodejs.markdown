@@ -5,7 +5,7 @@ date:   2014-10-24 09:50:00
 categories: javascript
 name: /meu-ambiente-de-desenvolvimento.html
 tags: workflow, dev, web
-description: Eu sei que o assunto é clichê, mas foi lendo sobre o ambiente de desenvolvimento de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
+description: Um dia desses, surgiu a necessidade de fazer um _web scraping_, que consiste básicamente em extrair informações de um determinado site.
 feature: /assets/images/post-006/web-scraping.jpg
 ---
 

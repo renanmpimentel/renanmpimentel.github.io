@@ -19,7 +19,7 @@ Vou tentar passar um pouco do que estou aprendendo, mas se você tem pressa para
 
 **Debian e derivados** 
 
-```
+```bash
 sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install npm
@@ -27,20 +27,20 @@ sudo apt-get install npm
  
 **openSUSE & SLE**
 
-```
+```bash
 sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/nodejs/openSUSE_13.1/ Node.js
 sudo zypper in nodejs nodejs-devel
 ```
 
 **Fedora**
 
-```
+```bash
 sudo yum install nodejs npm
 ```
 
 **Arch Linux**
 
-```
+```bash
 pacman -S nodejs
 ```
 
@@ -48,19 +48,19 @@ pacman -S nodejs
 
 **Usando Fink**
 
-```
+```bash
  fink install nodejs
 ```
 
 **Usando homebrew**
 
-```
+```bash
  brew install node
 ```
 
 **Usando macports**
 
-```
+```bash
  port install nodejs
 ```
 
@@ -70,7 +70,7 @@ Basta fazer o download [aqui]
 
 Indepentende do sistema operacional que você estiver trabalhando, para ver se tudo ocorreu bem, basta digitar o seguinte comando em seu terminal:
 
-```
+```bash
 node -v
 ```
 
@@ -79,7 +79,7 @@ node -v
 
 Este é um dos arquivos mais importantes para um projeto [nodejs], um **package.json** mal estruturado pode comprometer o funcionamento do sistema. Ele é responsavel por todas as dependêndias que são compreendidas pelo **NPM** e outras coisas. Veja um exemplo:
 
-```
+```javascript
 {
   "name": "Nome do modulo",
   "description": "Descrição do modulo",
@@ -117,7 +117,7 @@ Assim como tudo que fazemos de novo no mundo de programação, vamos ao nosso **
 
 Crie um arquivo *app.js*
 
-```
+```javascript
 var http = require('http');
 
 var server = http.createServer(function(request, response){
@@ -130,13 +130,13 @@ server.listen(3000);
 
 Simplesmente, usamos um dos modulos nativo do [nodejs], o [http] e apontamos o nosso servidor para a porta *3000*, para validarmos isso, basta digitar no terminal:
 
-```
+```bash
 npm start
 ```
 
 ou
 
-```
+```bash
 node app.js
 ```
 

@@ -23,7 +23,7 @@ Feito tudo isso, vai ser gerada uma chave **client ID** e **client secret**, vam
 
 Aqui, um formulário simples:
 
-```
+```html
 <form action="upload.php" enctype="multipart/form-data" method="POST">
     Escolha a imagem: <input name="img" size="35" type="file"/><br/>
     <input type="submit" name="submit" value="Upload"/>
@@ -34,13 +34,13 @@ Aqui, um formulário simples:
 
 Vamos criar um arquivo upload.php e informar o **client ID**
 
-```
+```php
 $client_id ="f022afbee1d5b81";
 ```
 
 Depois, ler o conteudo da imagem
 
-```
+```php
 $filename = $_FILES['img']['tmp_name'];
 $handle   = fopen($filename, "r");
 $data     = fread($handle, filesize($filename));
@@ -49,7 +49,7 @@ $pvars    = array('image' => base64_encode($data));
 
 E por último, enviaremos essa informação via **cURL** para a API do [imgur]: *https://api.imgur.com/3/image.json*
 
-```
+```php
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, 'https://api.imgur.com/3/image.json');
 curl_setopt($curl, CURLOPT_TIMEOUT, 30);

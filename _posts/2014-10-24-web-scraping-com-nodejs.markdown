@@ -22,7 +22,7 @@ Mas, como estamos falando de javascript (nodejs), vamos usar os seguintes compon
   
 No exemplo que vamos fazer a seguir, vai buscar o titulo e a url do post do meu blog, mas pode ser usado em qualquer site. O código dessa aplicação é extremamente simples, ficaria assim:
 
-```
+```javascript
 const URL = 'http://renanmpimentel.github.io';
 
 var request = require('request');

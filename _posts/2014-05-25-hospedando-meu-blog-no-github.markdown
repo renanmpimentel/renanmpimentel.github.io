@@ -35,7 +35,7 @@ Depois, basta seguir os seguintes passos:
 
 E para finalizar, você deve fazer um commit dessas suas alterações:
 
-```
+```bash
 $ git add --all
 
 $ git commit -m "Criando uma pagina com github pages"
@@ -55,7 +55,7 @@ Então, nos criarmos a estrutura do **Jekyll**:
 
 Feito isso, agora é preciso enviar as alterações para o **Github**, digite no console o seguinte comando:
 
-```
+```bash
 $ cd username.github.io
 
 $ git init
@@ -65,7 +65,7 @@ $git remote add origin git@github.com:username/username.github.io.git
 
 E logo após, precisamos criar o primeiro _commit_ da nossa estrutura **Jekyll**
 
-```
+```bash
 $ git add --all
 
 $ git commit -m "Criando uma pagina com github pages com Jekyll"

@@ -22,19 +22,18 @@ Em alguns sistemas operacionais **Linux**, os repositórios sempre são de vers�
 O primeiro passo é escolher a versão e [fazer o download], no nosso caso, vamos utilizar a [2.1.2]. Feito o download, precisamos verificar se algumas dependencias estão instaladas corretamente, para usuários **Debian/Ubuntu**, segue o comando:
 
 
-```
+```bash
 $ sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-```
+```bash
 $ sudo apt-get install build-essential git git-core curl bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev libxslt-dev autoconf
 ```
 
 #### Compilando o Ruby
 Agora, você deve descompactar a pasta `tar -vzxf [versao-ruby].tar.gz`, feito isso entre na pasta gerada e execute o seguinte comando no console do seu sistema operacional.
 
-```
-
+```bash
 $ sudo ./configure --prefix=PATH/RUBY_VERSION --bindir=BIN_PATH
 ```
 
@@ -46,7 +45,7 @@ O comando exemplo precisa ser ajustado. Para isto, substitua as variáveis do co
 
 E se tudo ocorrer bem, falta apenas executar esse dois comandos: 
 
-```
+```bash
 $ make && make install
 ```
 
@@ -56,13 +55,13 @@ Eles são responsáveis por concluir a instalação do código-fonte em seu sist
 
 Se você conseguiu executar todos os passos e não enfrentou nenhum problema, agora basta executar o seguinte comando no console: ``ruby -v``, a mensagem esperada é algo parecido com isso:
 
-```
+```bash
 ruby 2.1.2p95 (2014-05-08 revision 45877) [i686-linux]
 ```
 
 Se por algum motivo você nao conseguir acessar o executável do Ruby, crie um alias de execução com o seguinte comando no console:
 
-```
+```bash
 $ ln -s PATH/RUBY_VERSION/bin/ruby BIN_PATH/ruby
 ```
 
@@ -96,7 +95,7 @@ Pronto, a estrutura do seu site/blog está criado, para acessar localmente basta
 
 Como eu uso o **Ubuntu (12.04 LTS)**, ao tentar executar o comando ``jekyll server`` ele apareceu o seguinte erro:
 
-```
+```bash
 $ jekyll server
 
 /usr/local/ruby/2.1.2/lib/ruby/gems/2.1.0/gems/execjs-2.0.2/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
@@ -123,13 +122,13 @@ $ jekyll server
 
 Pare resolver esse problema, basta instalar o **nodejs** em sua máquima, basta digitar o seguinte comando:
 
-```
+```bash
 $ sudo apt-get install nodejs
 ```
 
 Agora sim, se executarmos o comando: ``$ jekyll server``, deve aparecer isso:
 
-```
+```bash
 Configuration file: /home/USER/path/meu-site/_config.yml
             Source: /home/USER/path/meu-site
        Destination: /home/USER/path/meu-site/_site

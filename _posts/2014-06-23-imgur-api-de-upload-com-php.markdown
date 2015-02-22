@@ -13,11 +13,11 @@ Um pequeno exemplo de como fazer upload de imagens para o [imgur]. Vou mostrar d
 
 O primeiro passo é fazer o cadastro no [imgur], e depois de criada e confirmada a conta, é necessário criar uma [chave de autorização]
 
-![alt text](/assets/images/post-003/upload-image-imgur-001.png "")
+![alt text](/assets/images/post-003/upload-image-imgur-001.jpg "")
 
 Feito tudo isso, vai ser gerada uma chave **client ID** e **client secret**, vamos usar **apenas a primeira** em nossa aplicação.
 
-![alt text](/assets/images/post-003/upload-image-imgur-002.png "")
+![alt text](/assets/images/post-003/upload-image-imgur-002.jpg "")
 
 ### Formulário HTML
 

@@ -18,7 +18,7 @@ Bom, primeiro você deve estar logado em sua conta [Github], e criar um novo rep
 
 Crie um repositório, com o nome do seu usuário, exemplo: ``username.github.io``, como na figura abaixo:
 
-![alt text](/assets/images/github-pages-01.png "Criando novo repositório")
+![alt text](/assets/images/github-pages-01.jpg "Criando novo repositório")
 
 
 #### Dando vida a página

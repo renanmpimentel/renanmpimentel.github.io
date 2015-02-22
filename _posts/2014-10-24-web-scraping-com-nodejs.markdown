@@ -50,7 +50,7 @@ request(URL, function (err, resp, body) {
 
 A resposta esperada no terminal deve ser a seguinte:
 
-![alt text](/assets/images/post-006/app.png "")
+![alt text](/assets/images/post-006/app.jpg "")
 
 Você pode fazer o download do [exemplo aqui], e caso tenha alguma dúvida deixe um comentário.
 

@@ -6,7 +6,7 @@ categories: others
 name: /meu-ambiente-de-desenvolvimento.html
 tags: workflow, dev, web
 description: Eu sei que o assunto é clichê, mas foi lendo sobre o ambiente de desenvolvimento de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
-feature: /assets/images/post-005/workflow.jpg
+feature: /assets/img/post-005/workflow.jpg
 ---
 
 Eu sei que o assunto é clichê, mas foi lendo sobre o "ambiente de desenvolvimento" de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
@@ -57,7 +57,7 @@ $ sudo apt-get install vim curl git python-software-properties
 ### BASH
 Gosto muito do _bash_ nativo do Ubuntu, mas ultimamente eu tenho utilizado o [zsh], pelo simples fato do [oh-my-zsh] ter um visual mais agradavel, o _prompt git_ entre outras facilidades.
 
-![alt text](/assets/images/post-005/oh-my-zsh.jpg "")
+![alt text](/assets/img/post-005/oh-my-zsh.jpg "")
 
 Para instalar, é fácil, basta seguir os seguintes passos:
 
@@ -144,7 +144,7 @@ Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
     ```bash
     $ nvm ls-remote
     ```
-    ![alt text](/assets/images/post-005/nvm_ls-remote.jpg "")
+    ![alt text](/assets/img/post-005/nvm_ls-remote.jpg "")
     _coloquei um grep para listar as ultimas versões_
 
 * Instalando uma versão
@@ -152,7 +152,7 @@ Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
     ```bash
     $ nvm install 0.11.14
     ```
-    ![alt text](/assets/images/post-005/nvm-install.jpg "")
+    ![alt text](/assets/img/post-005/nvm-install.jpg "")
     _nvm install [versao]_
 
 * Criando um alias default
@@ -160,7 +160,7 @@ Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
     ```bash
     $ nvm alias default 0.11.14
     ```
-    ![alt text](/assets/images/post-005/nvm-alias-dafault.jpg "")
+    ![alt text](/assets/img/post-005/nvm-alias-dafault.jpg "")
     _nvm alias [nome-alias] [versao]_
 
 

@@ -6,7 +6,7 @@ categories: javascript
 name: /nodejs-para-iniciantes.html
 tag: nodejs, javascript
 description: Há algumas semanas atrás, eu só conhecia os Hello world em nodejs. Foi então que, onde trabalho surgiu a oportunidade em fazer um novo componente, usando apenas javascript, e como essa aplicação seria apenas server-side decidimos usar o nodejs com express.
-feature: /assets/images/post-004/nodejs-iniciantes.jpg
+feature: /assets/img/post-004/nodejs-iniciantes.jpg
 ---
 
 Há algumas semanas atrás, eu só conhecia os "Hello world" em [nodejs]. Foi então que, onde trabalho surgiu a oportunidade em fazer um novo componente, usando apenas **javascript**, e como essa aplicação seria apenas *server-side* decidimos usar o [nodejs] com [express]. 

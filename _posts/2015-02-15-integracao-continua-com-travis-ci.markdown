@@ -6,7 +6,7 @@ categories: dev
 name: /integracao-continua-com-travis-ci.htmll
 tags: travis-ci, devops
 description: Nesse post vou mostrar como é simples integrar o seu github ao travis-ci, uma ferramenta de integração contínua online e gratís.
-feature: /assets/images/post-007/travis-ci.jpg
+feature: /assets/img/post-007/travis-ci.jpg
 ---
 
 Nesse post vou mostrar como é simples integrar o seu [github](http://www.github.com) ao [travis-ci](https://travis-ci.org/), uma ferramenta de integração contínua online e __gratís__.
@@ -22,20 +22,20 @@ Então vamos por a mão na massa, e ver como as coisas funcionam.
 
 Acesse o site do [travis-ci](https://travis-ci.org/) e faça o login com o seu usuário do __github__
 
-![Travis-CI](/assets/images/post-007/img01.jpg "")
+![Travis-CI](/assets/img/post-007/img01.jpg "")
 
 Feito isso, você vai ver a tela com suas ultimas integrações:
 
-![Travis-CI](/assets/images/post-007/img02.jpg "")
+![Travis-CI](/assets/img/post-007/img02.jpg "")
 
 Caso você não tenha nenhum, você pode adicionar qualquer projeto do seu __github__, para acessar o seu perfil
 > https://travis-ci.org/profile/_<USER_GITHUB>
 
-![Travis-CI](/assets/images/post-007/img03.jpg "")
+![Travis-CI](/assets/img/post-007/img03.jpg "")
 
 Vai ter a lista completa de todos os seus projetos, basta clicar em _ON_ e depois na _chave inglesa_ do lado do _ON_, esse link, irá nos levar a pagina de configuração.
 
-![Travis-CI](/assets/images/post-007/img04.jpg "")
+![Travis-CI](/assets/img/post-007/img04.jpg "")
 
 Temos três opções na tela:
 
@@ -55,11 +55,11 @@ node_js:
 
 Vocẽ pode validar o seu arquivo, [aqui](http://lint.travis-ci.org/)
 
-![Travis-CI](/assets/images/post-007/img05.jpg "")
+![Travis-CI](/assets/img/post-007/img05.jpg "")
 
 Arquivo criado/validado e feito o commit para o seu repositório, o projeto estará com integração feita.O resultado esperado deve ser esse:
 
-![Travis-CI](/assets/images/post-007/img06.jpg "")
+![Travis-CI](/assets/img/post-007/img06.jpg "")
 
 Pronto, agora o seu projeto já pode ter a _Badge_ de _build status_
 

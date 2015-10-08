@@ -6,7 +6,7 @@ categories: github
 name: /hospedando-meu-blog-no-github.html
 tag: github, github-pages, blog
 description: No post anterior hello word! eu falei de como instalar/compilar o Ruby e o Jekyll em sua máquina de desenvolvimento. E agora, vou mostrar como fazer para colocar essa página no ar, se gastar nada, porque vamos usar o Github Pages.
-feature: /assets/images/post-002/github-pages.jpg
+feature: /assets/img/post-002/github-pages.jpg
 ---
 
 
@@ -18,7 +18,7 @@ Bom, primeiro você deve estar logado em sua conta [Github], e criar um novo rep
 
 Crie um repositório, com o nome do seu usuário, exemplo: ``username.github.io``, como na figura abaixo:
 
-![alt text](/assets/images/github-pages-01.jpg "Criando novo repositório")
+![alt text](/assets/img/github-pages-01.jpg "Criando novo repositório")
 
 
 #### Dando vida a página

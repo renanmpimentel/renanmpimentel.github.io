@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>   
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -8,7 +8,7 @@
         <title>{{ page.title }} - {{ site.name }}</title>
     {% else %}
         <title>{{ site.name }}</title>
-    {%endif%} 
+    {%endif%}
     <meta name="description" content="{{ site.meta_description}}" />
     <meta property="og:locale" content="pt_BR">
     <meta property="og:url" content="{{site.url}}/{{ page.categories }}{{ page.name }}">
@@ -17,7 +17,7 @@
     <meta property="og:description" content="{{ page.description }}">
     <meta property="og:image" content="{{site.url}}{{ page.feature }}">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="800"> 
+    <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="600">
     <meta property="og:type" content="website">
     <meta property="og:type" content="article">
@@ -41,7 +41,7 @@
 </head>
 <body class="home-template">
 
-    
+
     {{ content }}
 
     <footer class="site-footer">
@@ -52,10 +52,8 @@
         </div>
     </footer>
 
-    
-    <script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <script type="text/javascript" src="/assets/js/main.js"></script>
 
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">
@@ -70,6 +68,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    </script>   
+    </script>
 </body>
 </html>

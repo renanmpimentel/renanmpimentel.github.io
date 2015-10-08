@@ -6,7 +6,7 @@ categories: jekyll
 name: /hello-world
 tag: hello-word, jekyll, ruby
 description: Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro hello world!, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o wordpress (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o Jekyll, feito em ruby, e tem algumas vantagens legais, veja o que pessoal do tableless diz.
-feature: /assets/images/post-001/hello-world.jpg
+feature: /assets/img/post-001/hello-world.jpg
 ---
 
 Bom, como tudo que começamos de novo ou do zero, sempre temos o primeiro *hello world!*, e por aqui não poderia ser diferente. Resolvi me aventurar de novo, a ter um blog, não queria ter algo como o **wordpress** (as vezes uma bazuca para matar um mosquito). Foi ai que resolvi usar o **Jekyll**, feito em **ruby**, e tem algumas vantagens legais,veja o que pessoal do [tableless] diz.
@@ -17,7 +17,7 @@ A ideia veio de um colega de trabalho, o [Rogerio] '_ruby on rails man_', que te
 
 Em alguns sistemas operacionais **Linux**, os repositórios sempre são de versões antigas, o **Ubuntu** é um grande exemplo disso. As vezes achamos repositórios não oficiais, mas a melhor forma mesmo, é compilar _"na mão"_ a versão desejada.
 
-#### Escolhendo a versão 
+#### Escolhendo a versão
 
 O primeiro passo é escolher a versão e [fazer o download], no nosso caso, vamos utilizar a [2.1.2]. Feito o download, precisamos verificar se algumas dependencias estão instaladas corretamente, para usuários **Debian/Ubuntu**, segue o comando:
 
@@ -43,7 +43,7 @@ O comando exemplo precisa ser ajustado. Para isto, substitua as variáveis do co
  * **RUBY_VERSION**: Deve ser substituída pela versão que está compilando, como por exemplo ``2.1.2``.
  * **BIN_PATH**: Normalmente, a pasta que são encontrados os executáveis do sistema estão na ``/usr/bin``.
 
-E se tudo ocorrer bem, falta apenas executar esse dois comandos: 
+E se tudo ocorrer bem, falta apenas executar esse dois comandos:
 
 ```bash
 $ make && make install
@@ -51,7 +51,7 @@ $ make && make install
 
 Eles são responsáveis por concluir a instalação do código-fonte em seu sistema.
 
-#### Finalizando 
+#### Finalizando
 
 Se você conseguiu executar todos os passos e não enfrentou nenhum problema, agora basta executar o seguinte comando no console: ``ruby -v``, a mensagem esperada é algo parecido com isso:
 
@@ -79,7 +79,7 @@ Agora que temos o **Ruby** configurado, vamos começar a brincar de verdade com 
 
   * Segundo passo
 	Criar o site/blog com o jekyll: ``$ jekyll new meu-site``
-	Resposta: ``New jekyll site installed in /home/USER/path/meu-site.`` 
+	Resposta: ``New jekyll site installed in /home/USER/path/meu-site.``
 
   * Terceiro passo
 
@@ -132,7 +132,7 @@ Agora sim, se executarmos o comando: ``$ jekyll server``, deve aparecer isso:
 Configuration file: /home/USER/path/meu-site/_config.yml
             Source: /home/USER/path/meu-site
        Destination: /home/USER/path/meu-site/_site
-      Generating... 
+      Generating...
                     done.
 Configuration file: /home/USER/path/meu-site/_config.yml
     Server address: http://0.0.0.0:4000/

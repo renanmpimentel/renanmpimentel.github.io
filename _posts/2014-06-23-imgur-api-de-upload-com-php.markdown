@@ -6,18 +6,18 @@ categories: php
 name: /imgur-api-de-upload-com-php.html
 tag: php, api, imgur
 description: Um pequeno exemplo de como fazer upload de imagens para o imgur. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, faça algumas melhorias e poste aqui nos comentários. 
-feature: /assets/images/post-003/api-imgur.jpg
+feature: /assets/img/post-003/api-imgur.jpg
 ---
 
 Um pequeno exemplo de como fazer upload de imagens para o [imgur]. Vou mostrar de forma simples, caso pretenda implementar isso em algum projeto seu, **faça algumas melhorias** e poste aqui nos comentários. 
 
 O primeiro passo é fazer o cadastro no [imgur], e depois de criada e confirmada a conta, é necessário criar uma [chave de autorização]
 
-![alt text](/assets/images/post-003/upload-image-imgur-001.jpg "")
+![alt text](/assets/img/post-003/upload-image-imgur-001.jpg "")
 
 Feito tudo isso, vai ser gerada uma chave **client ID** e **client secret**, vamos usar **apenas a primeira** em nossa aplicação.
 
-![alt text](/assets/images/post-003/upload-image-imgur-002.jpg "")
+![alt text](/assets/img/post-003/upload-image-imgur-002.jpg "")
 
 ### Formulário HTML
 

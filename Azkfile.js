@@ -1,34 +1,39 @@
-/**
- * Documentation: http://docs.azk.io/Azkfile.js
- */
-
 systems({
   'renanmpimentel': {
-    // Dependent systems
+
     depends: [],
-    // More images:  http://images.azk.io
-    image: { docker: 'dynaum/ruby-bundler-node' },
-    // Steps to execute before running instances
+
+    image: {'docker': 'azukiapp/ruby:2.2'},
+
     provision: [
       'bundle install --path /azk/bundler',
     ],
+
     workdir : '/azk/#{manifest.dir}',
-    command : 'bundle exec jekyll serve -s ./ --config ./_config.yml --port=$HTTP_PORT --host=0.0.0.0 --watch --force_polling',
     shell   : '/bin/bash',
-    // not expect application response
-    scalable: {'default': 1},
-    // Mounts folders to assigned paths
+    command : 'bundle exec jekyll serve -s ./ --config ./_config.yml --port=$HTTP_PORT --host=0.0.0.0 --watch --force_polling',
+    wait    : {'retry': 20, 'timeout': 1000},
+
     mounts: {
-      '/azk/bundler'                         : persistent('bundler'),
-      '/azk/#{manifest.dir}'                 : path('.'),
-      '/azk/#{manifest.dir}/_site'           : path('_site'),
+      '/azk/bundler'                         : persistent('#{manifest.dir}/bundler'),
+      // see this link if you get an error on sync
+      // http://stackoverflow.com/questions/16748737/grunt-watch-error-waiting-fatal-error-watch-enospc
+      '/azk/#{manifest.dir}'                 : sync('.'),
+      '/azk/#{manifest.dir}/_site'           : path('#{manifest.dir}/_site'),
+      '/azk/#{manifest.dir}/node_modules'    : path('#{manifest.dir}/node_modules'),
+      '/azk/#{manifest.dir}/build'           : path('#{manifest.dir}/build'),
     },
+
+    scalable: {'default': 1},
     http: {
-      domains: [ '#{system.name}.#{azk.default_domain}' ]
+      domains: ['#{system.name}.#{azk.default_domain}']
+    },
+    ports: {
+      http: '3000/tcp',
     },
     envs: {
-      // set instances variables
-      RUBY_ENV : 'development',
+      PATH              : './node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+      RUBY_ENV          : 'development',
       BUNDLE_APP_CONFIG : '/azk/bundler',
     },
   },

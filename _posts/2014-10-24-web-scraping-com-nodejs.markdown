@@ -6,7 +6,7 @@ categories: javascript
 name: /meu-ambiente-de-desenvolvimento.html
 tags: workflow, dev, web
 description: Um dia desses, surgiu a necessidade de fazer um web scraping, que consiste básicamente em extrair informações de um determinado site.
-feature: /assets/images/post-006/web-scraping.jpg
+feature: /assets/img/post-006/web-scraping.jpg
 ---
 
 Um dia desses, surgiu a necessidade de fazer um _web scraping_, que consiste básicamente em extrair informações de um determinado site.
@@ -50,7 +50,7 @@ request(URL, function (err, resp, body) {
 
 A resposta esperada no terminal deve ser a seguinte:
 
-![alt text](/assets/images/post-006/app.jpg "")
+![alt text](/assets/img/post-006/app.jpg "")
 
 Você pode fazer o download do [exemplo aqui], e caso tenha alguma dúvida deixe um comentário.
 

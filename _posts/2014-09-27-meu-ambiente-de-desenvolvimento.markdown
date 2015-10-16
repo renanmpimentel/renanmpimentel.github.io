@@ -6,7 +6,7 @@ categories: others
 name: /meu-ambiente-de-desenvolvimento.html
 tags: workflow, dev, web
 description: Eu sei que o assunto é clichê, mas foi lendo sobre o ambiente de desenvolvimento de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
-feature: /assets/img/post-005/workflow.jpg
+feature: /assets/img/meu-ambiente-de-desenvolvimento/workflow.jpg
 ---
 
 Eu sei que o assunto é clichê, mas foi lendo sobre o "ambiente de desenvolvimento" de outros desenvolvedores que aprendi sobre algumas tecnlogias e/ou ferramentas. Espero que esse post ajude alguém :P
@@ -16,7 +16,7 @@ Eu sei que o assunto é clichê, mas foi lendo sobre o "ambiente de desenvolvime
 
 Sou usuário do linux há um bom tempo, e sempre usei Debian/* para desenvolvimento, atualmente tenho utilizado o Ubuntu.
 
-Vamos lá, utilizo [Ubuntu 14.04 - Trusty Tahr.] em um SSD de 120Gb, por ser tratar de um espaço pequeno, eu fiz a seguinte divisão: 
+Vamos lá, utilizo [Ubuntu 14.04 - Trusty Tahr.] em um SSD de 120Gb, por ser tratar de um espaço pequeno, eu fiz a seguinte divisão:
 
 ```bash
 ➜  ~  sudo fdisk -l
@@ -57,7 +57,7 @@ $ sudo apt-get install vim curl git python-software-properties
 ### BASH
 Gosto muito do _bash_ nativo do Ubuntu, mas ultimamente eu tenho utilizado o [zsh], pelo simples fato do [oh-my-zsh] ter um visual mais agradavel, o _prompt git_ entre outras facilidades.
 
-![alt text](/assets/img/post-005/oh-my-zsh.jpg "")
+![alt text](/assets/img/meu-ambiente-de-desenvolvimento/oh-my-zsh.jpg "")
 
 Para instalar, é fácil, basta seguir os seguintes passos:
 
@@ -115,7 +115,7 @@ Aproveitando, já instalo o [Composer]:
 $ curl -sS https://getcomposer.org/installer | php
 ```
 
-Para deixar ele como _global_, vamos mover ele: 
+Para deixar ele como _global_, vamos mover ele:
 
 ```$ sudo mv composer.phar /usr/bin/composer```
 
@@ -125,7 +125,7 @@ O primeiro passo, é instalar o [NVM] (Node Version Manager), e antes que você 
 
 ```bash
 # Fazendo o download e instalando o NVM
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.17.1/install.sh | bash 
+$ curl https://raw.githubusercontent.com/creationix/nvm/v0.17.1/install.sh | bash
 ```
 
 Feito isso, um clone do repositório vai ser criado: ``` ~/.nvm ```, caso isso não ocorra, veja [outras formas de instalar]. Mas se tudo ocorrer bem, o arquivo ```~/.bashrc``` foi alterado, e as seguintes informações foram adicionadas:
@@ -144,15 +144,15 @@ Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
     ```bash
     $ nvm ls-remote
     ```
-    ![alt text](/assets/img/post-005/nvm_ls-remote.jpg "")
+    ![alt text](/assets/img/meu-ambiente-de-desenvolvimento/nvm_ls-remote.jpg "")
     _coloquei um grep para listar as ultimas versões_
 
 * Instalando uma versão
-    
+
     ```bash
     $ nvm install 0.11.14
     ```
-    ![alt text](/assets/img/post-005/nvm-install.jpg "")
+    ![alt text](/assets/img/meu-ambiente-de-desenvolvimento/nvm-install.jpg "")
     _nvm install [versao]_
 
 * Criando um alias default
@@ -160,7 +160,7 @@ Se tudo ocorrer bem, e sem nenhum erro, podemos seguir para os próximos passos:
     ```bash
     $ nvm alias default 0.11.14
     ```
-    ![alt text](/assets/img/post-005/nvm-alias-dafault.jpg "")
+    ![alt text](/assets/img/meu-ambiente-de-desenvolvimento/nvm-alias-dafault.jpg "")
     _nvm alias [nome-alias] [versao]_
 
 

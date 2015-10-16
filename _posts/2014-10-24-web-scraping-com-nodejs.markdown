@@ -6,20 +6,20 @@ categories: javascript
 name: /meu-ambiente-de-desenvolvimento.html
 tags: workflow, dev, web
 description: Um dia desses, surgiu a necessidade de fazer um web scraping, que consiste básicamente em extrair informações de um determinado site.
-feature: /assets/img/post-006/web-scraping.jpg
+feature: /assets/img/web-scraping-com-nodejs/web-scraping.jpg
 ---
 
 Um dia desses, surgiu a necessidade de fazer um _web scraping_, que consiste básicamente em extrair informações de um determinado site.
 
-Geralmente eu desenvolveria algo em __PHP__, a linguagem que mais trabalho no dia a dia atualmente. Mas como estou me dedicando a novas tecnologias, resolvi desenvolver isso em javascript, então, lembrei do __nodejs__. 
+Geralmente eu desenvolveria algo em __PHP__, a linguagem que mais trabalho no dia a dia atualmente. Mas como estou me dedicando a novas tecnologias, resolvi desenvolver isso em javascript, então, lembrei do __nodejs__.
 
 Só para titulo de curiosidade, caso eu fizesse isso em PHP, usaria uma biblioteca muito boa, a [phpQuery], se tiver dúvidas, basta seguir esse [tutorial].
 
 Mas, como estamos falando de javascript (nodejs), vamos usar os seguintes componentes:
 
-  * request 
+  * request
   * cheerio - O __jQuery__ do nodejs, o que pode encorajar muitos desenvolvedores a se aventurar no mundo de nodejs.
-  
+
 No exemplo que vamos fazer a seguir, vai buscar o titulo e a url do post do meu blog, mas pode ser usado em qualquer site. O código dessa aplicação é extremamente simples, ficaria assim:
 
 ```javascript
@@ -50,11 +50,11 @@ request(URL, function (err, resp, body) {
 
 A resposta esperada no terminal deve ser a seguinte:
 
-![alt text](/assets/img/post-006/app.jpg "")
+![alt text](/assets/img/web-scraping-com-nodejs/app.jpg "")
 
 Você pode fazer o download do [exemplo aqui], e caso tenha alguma dúvida deixe um comentário.
 
-    
+
 [phpQuery]: https://code.google.com/p/phpquery/
 [tutorial]: http://www.deivison.com.br/phpquery-web-scraping-ja-imaginou-selecionar-elementos-de-um-outro-site-com-php-utilizando-a-semantica-de-elementos-como-do-css/
 [exemplo aqui]: https://github.com/renanmpimentel/webscraping-blog

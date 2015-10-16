@@ -12,7 +12,7 @@ var gulp        = require('gulp'),
 gulp.task('imagemin', function () {
     return gulp.src('src/img/**/*.{jpg,png,gif}')
         .pipe(plumber())
-        .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+        .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
         .pipe(gulp.dest('assets/img/'));
 });
 

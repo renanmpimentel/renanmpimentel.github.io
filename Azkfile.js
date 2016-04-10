@@ -12,7 +12,6 @@ systems({
     workdir : '/azk/#{manifest.dir}',
     shell   : '/bin/bash',
     command : 'bundle exec jekyll serve -s ./ --config ./_config.yml --port=$HTTP_PORT --host=0.0.0.0 --watch --force_polling',
-    wait    : {'retry': 20, 'timeout': 1000},
 
     mounts: {
       '/azk/bundler'                         : persistent('#{manifest.dir}/bundler'),

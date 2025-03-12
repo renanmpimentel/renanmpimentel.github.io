@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaquinha Solidária - Páscoa</title>
+    <style>
+        /* Fonte do site */
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Quicksand:wght@300;500&display=swap');
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef8f2;
+            color: #8c4e23;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+        }
+
+        /* Melhoria na apresentação das logos */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            align-items: center;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .logo-container:hover {
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+
+        .logo-container img {
+            height: 120px;
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        .logo-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro {
+            font-size: 26px;
+            font-weight: 300;
+            color: #d46a6a;
+            margin-bottom: 40px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        .saldo-container {
+            background: linear-gradient(135deg, #ff9e8a, #ff6f61);
+            padding: 35px;
+            border-radius: 15px;
+            font-size: 38px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 40px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .saldo-container:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #ff6f61, #ff9e8a);
+        }
+
+        .progress-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .progress-container:hover {
+            transform: scale(1.02);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 25px;
+            background: #f2f2f2;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0;
+            background: linear-gradient(135deg, #ff9e8a, #ff6f61);
+            border-radius: 12px;
+            transition: width 0.5s ease-in-out;
+        }
+
+        .historico-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            overflow-y: scroll;
+            max-height: 250px;
+            transition: transform 0.3s ease;
+            scrollbar-width: thin;
+            scrollbar-color: #ff6f61 #f2f2f2;
+        }
+
+        .historico-container::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .historico-container::-webkit-scrollbar-thumb {
+            background-color: #ff6f61;
+            border-radius: 10px;
+        }
+
+        .historico-container::-webkit-scrollbar-track {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+
+        .historico-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 18px;
+            color: #8c4e23;
+            transition: transform 0.3s ease;
+        }
+
+        .historico-item:last-child {
+            border-bottom: none;
+        }
+
+        .historico-item:hover {
+            transform: scale(1.03);
+            background-color: #ffe1e1;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 18px;
+            color: #8c4e23;
+            transition: color 0.3s ease;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+
+        footer:hover {
+            color: #d46a6a;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+            .logo-container img {
+                height: 90px;
+            }
+            .saldo-container {
+                font-size: 30px;
+            }
+            .historico-item {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Seção de Logos dos Apoiadores -->
+        <div class="logo-container">
+            <a href="https://www.aizelli.com.br" target="_blank">
+                <img src="aizelli.jpg" alt="Logo Aizelli">
+            </a>
+            <a href="https://www.instagram.com/box_one/" target="_blank">
+                <img src="boxone.jpg" alt="Logo BoxOne">
+            </a>
+        </div>
+
+        <p class="intro">Sua doação pode trazer um sorriso a mais na Páscoa das crianças do orfanato. Com sua ajuda, podemos tornar esta data ainda mais especial!</p>
+
+        <div class="saldo-container" id="saldo">Carregando...</div>
+
+        <div class="progress-container">
+            <p><strong>Progresso da Meta:</strong></p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress"></div>
+            </div>
+            <p id="meta-status"></p>
+        </div>
+
+        <div class="historico-container" id="historico">
+            <!-- Registros serão inseridos aqui -->
+        </div>
+
+        <!-- Informações sobre atualização -->
+        <footer>
+            <p>Este site é atualizado manualmente com muito carinho. Última atualização: <span id="ultima-atualizacao">Carregando...</span></p>
+        </footer>
+    </div>
+
+    <script>
+        const meta = 2000.00;
+        const dados = {
+            saldo: 0.00, // Inicializa como 0 para calcular a soma dos registros
+            registros: [
+                { data: "2025-03-12", valor: 20.00 },
+            ],
+            ultimaAtualizacao: "2025-03-12"
+        };
+
+        // Soma os valores dos registros de doações
+        dados.saldo = dados.registros.reduce((total, registro) => total + registro.valor, 0);
+
+        // Atualização de saldo e progresso
+        document.getElementById("saldo").innerText = `Saldo Atual: R$ ${dados.saldo.toFixed(2)}`;
+        const progresso = (dados.saldo / meta) * 100;
+        document.getElementById("progress").style.width = `${progresso}%`;
+
+        const metaStatus = document.getElementById("meta-status");
+        if (dados.saldo >= meta) {
+            metaStatus.innerText = "🎉 A Meta foi atingida! Muito obrigado pelo apoio! 🎉";
+            metaStatus.style.color = "#4caf50";
+            document.getElementById("progress").style.background = "gold";
+        } else {
+            metaStatus.innerText = `Faltam R$ ${(meta - dados.saldo).toFixed(2)} para atingirmos a nossa meta!`;
+        }
+
+        // Exibindo os 10 últimos registros
+        const ultimosRegistros = dados.registros.slice(0, 10);
+        const historicoContainer = document.getElementById("historico");
+
+        ultimosRegistros.forEach(registro => {
+            const item = document.createElement("div");
+            item.classList.add("historico-item");
+            item.innerHTML = `
+                <span>${registro.data}</span>
+                <span>R$ ${registro.valor.toFixed(2)}</span>
+            `;
+            historicoContainer.appendChild(item);
+        });
+
+        // Atualização da data
+        document.getElementById("ultima-atualizacao").innerText = dados.ultimaAtualizacao;
+    </script>
+</body>
+</html>

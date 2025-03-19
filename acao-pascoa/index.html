@@ -264,7 +264,7 @@
         }
 
         // Exibindo os 10 últimos registros
-        const ultimosRegistros = dados.registros.slice(0, 10);
+        const ultimosRegistros = dados.registros.slice(-10).reverse();
         const historicoContainer = document.getElementById("historico");
 
         ultimosRegistros.forEach(registro => {
